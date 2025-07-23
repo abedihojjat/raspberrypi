@@ -171,10 +171,10 @@ latlong=lat:long'
 
      # if dataage - use:dataage_utcoffset_timetype
      
-     I commented the following:
+     # I commented the following:
      # preprocesslogic='anomprob,trend,avg'
      
-     I added the following:
+     # I added the following:
      preprocesslogic='MIN,MAX,COUNT,VARIANCE,OUTLIERS,ANOMPROB'
 
      pathtotmlattrs='oem=n/a,lat=n/a,long=n/a,location=n/a,identifier=n/a'          
