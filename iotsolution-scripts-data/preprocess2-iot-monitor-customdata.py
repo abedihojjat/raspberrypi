@@ -142,7 +142,7 @@ def sendtransactiondata(maintopic,mainproducerid,VIPERPORT,index,preprocesstopic
      # I coomented the follwoing:
      # preprocesslogic='avg,avg'
      # I added this:
-     preprocesslogic='MIN,MAX,COUNT,VARIANCE,OUTLIERS,ANOMPROB'
+     preprocesslogic='min,max,count,variance,outliers,anomprob'
      
      #preprocesslogic='diff'
      preprocessconditions=''
