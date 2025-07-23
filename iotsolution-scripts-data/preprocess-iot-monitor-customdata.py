@@ -175,7 +175,7 @@ latlong=lat:long'
      # preprocesslogic='anomprob,trend,avg'
      
      # I added the following:
-     preprocesslogic='MIN,MAX,COUNT,VARIANCE,OUTLIERS,ANOMPROB'
+     preprocesslogic='min,max,count,variance,outliers,anomprob'
 
      pathtotmlattrs='oem=n/a,lat=n/a,long=n/a,location=n/a,identifier=n/a'          
      try:
