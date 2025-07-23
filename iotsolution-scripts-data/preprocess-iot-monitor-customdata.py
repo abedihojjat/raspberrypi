@@ -172,8 +172,7 @@ latlong=lat:long'
      # if dataage - use:dataage_utcoffset_timetype
      
      # I commented the following:
-     # preprocesslogic='anomprob,trend,avg'
-     
+         
      # I added the following:
      preprocesslogic='min,max,count,variance,outliers,anomprob'
 
