@@ -140,7 +140,7 @@ def sendtransactiondata(maintopic,mainproducerid,VIPERPORT,index,preprocesstopic
       # NOTE: The number of process logic functions MUST match the streams - the operations will be applied in the same order
      
      # I coomented the follwoing:
-     # preprocesslogic='avg,avg'
+    
      # I added this:
      preprocesslogic='min,max,count,variance,outliers,anomprob'
      
